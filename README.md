@@ -8,4 +8,6 @@ To let artists make GUI Animations without importing the whole project
 ## When?
 Not sure yet. I am working on this in my free time and I don't really have that much free time.
 
-### Note: The code *probably* isn't clean, feel free to rant about it in Issues if you think something can be cleaned up or just submit a pull request :)
+The code *probably* isn't clean, feel free to rant about it in Issues if you think something can be cleaned up or just submit a pull request :). 
+
+### Note: I'll be pushing directly to master until this becomes usable
