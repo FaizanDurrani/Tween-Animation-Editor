@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_Tween Animation Editor.1847007748.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="Basics.cs" t="Include" />
+              <e p="Sequences.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Components" t="Include">
+            <e p="Editor" t="Include">
+              <e p="TweenTemplateEditor.cs" t="Include" />
+            </e>
+            <e p="TweenTemplate.cs" t="Include" />
+          </e>
+          <e p="Graphs" t="Include">
+            <e p="AnimationTemplateGraph.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AnimationTemplateGraphEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Nodes" t="Include">
+            <e p="Base" t="Include">
+              <e p="ExtendedNode.cs" t="Include" />
+            </e>
+            <e p="BasicNodes" t="Include">
+              <e p="FloatNode.cs" t="Include" />
+              <e p="StringNode.cs" t="Include" />
+              <e p="TransformNode.cs" t="Include" />
+              <e p="ValueNode.cs" t="Include" />
+            </e>
+            <e p="MasterNodes" t="Include">
+              <e p="TemplateEnd.cs" t="Include" />
+              <e p="TemplateStart.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TweenAnimations.cs" t="Include" />
+          <e p="Types" t="Include">
+            <e p="NewBehaviourScript.cs" t="Include" />
+          </e>
+        </e>
+        <e p="xNode" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NodeEditor.cs" t="Include" />
+              <e p="NodeEditorAction.cs" t="Include" />
+              <e p="NodeEditorAssetModProcessor.cs" t="Include" />
+              <e p="NodeEditorBase.cs" t="Include" />
+              <e p="NodeEditorGUI.cs" t="Include" />
+              <e p="NodeEditorGUILayout.cs" t="Include" />
+              <e p="NodeEditorPreferences.cs" t="Include" />
+              <e p="NodeEditorReflection.cs" t="Include" />
+              <e p="NodeEditorResources.cs" t="Include" />
+              <e p="NodeEditorUtilities.cs" t="Include" />
+              <e p="NodeEditorWindow.cs" t="Include" />
+              <e p="NodeGraphEditor.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="ScriptTemplates" t="Include">
+                  <e p="xNode_NodeGraphTemplate.cs.txt" t="Include" />
+                  <e p="xNode_NodeTemplate.cs.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Node.cs" t="Include" />
+            <e p="NodeDataCache.cs" t="Include" />
+            <e p="NodeGraph.cs" t="Include" />
+            <e p="NodePort.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Tween Animation Editor.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60fbd30d-edc8-49a1-a966-f57ebdd88778" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TemplateStart.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateStart.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <marker date="1523403299000" expanded="true" signature="6:62" ph="..." />
+                <marker date="1523403299000" expanded="true" signature="133:464" ph="{...}" />
+                <marker date="1523403299000" expanded="true" signature="300:350" ph="{...}" />
+                <marker date="1523403299000" expanded="true" signature="389:458" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TweenTemplateEditor.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/Editor/TweenTemplateEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <marker date="1523441617000" expanded="false" signature="6:190" ph="..." />
+                <marker date="1523441617000" expanded="true" signature="219:3483" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="321:3481" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="373:1904" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="694:888" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="1121:1894" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="1307:1880" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="1976:2205" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="2319:3475" ph="{...}" />
+                <marker date="1523441617000" expanded="true" signature="2363:3465" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/StringNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1523406417000" expanded="true" signature="20:145" ph="{...}" />
+                <marker date="1523406417000" expanded="true" signature="70:143" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimationTemplateGraph.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graphs/AnimationTemplateGraph.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="841">
+              <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <folding>
+                <marker date="1523404095000" expanded="false" signature="6:132" ph="..." />
+                <marker date="1523404095000" expanded="true" signature="155:2293" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="306:2291" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="338:459" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="494:1532" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="520:1522" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="673:1270" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="752:834" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="890:976" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="1034:1114" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="1168:1252" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="1607:1916" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="1633:1906" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="1983:2282" ph="{...}" />
+                <marker date="1523404095000" expanded="true" signature="2009:2272" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TweenTemplate.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <marker date="1523411979000" expanded="false" signature="6:134" ph="..." />
+                <marker date="1523411979000" expanded="true" signature="178:675" ph="{...}" />
+                <marker date="1523411979000" expanded="true" signature="399:673" ph="{...}" />
+                <marker date="1523411979000" expanded="true" signature="501:628" ph="{...}" />
+                <marker date="1523411979000" expanded="true" signature="582:624" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValueNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/ValueNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <marker date="1523409110000" expanded="false" signature="6:43" ph="..." />
+                <marker date="1523409110000" expanded="true" signature="65:405" ph="{...}" />
+                <marker date="1523409110000" expanded="true" signature="118:196" ph="{...}" />
+                <marker date="1523409110000" expanded="true" signature="252:403" ph="{...}" />
+                <marker date="1523409110000" expanded="true" signature="347:397" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Style</find>
+      <find>GUI.depth</find>
+      <find>nodeeditorgui</find>
+      <find>name</find>
+      <find>: Attribute</find>
+      <find>title</find>
+      <find>(position,</find>
+      <find>propertyfi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>(</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/xNode" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95265F7-4FDF-4905-BFB0-D5A4B652216C/71/2b01a6f1/Single.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/2e/f1fa5a19/PropertyHandler.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/TransformNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95265F7-4FDF-4905-BFB0-D5A4B652216C/f3/7222c586/Double.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/bf/0d378a83/EditorGUILayout.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/Base/ExtendedNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeGraphEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/32/7da24fa6/SerializedProperty.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorGUILayout.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Editor/TweenTemplateEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/NodeGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/ValueNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/FloatNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/StringNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TweenAnimations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Types/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/b2/ef63de75/EditorGUI.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorPreferences.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graphs/AnimationTemplateGraph.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteStudioNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/TestNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base/SpriteStudioNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/TransformNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MasterNodes/TransformNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MasterNodes/DebugNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeGraphEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base/AnimationTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/AnimationTemplateGraphEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TweenTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base/AnimationTemplateGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base/ExtendedNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BasicNodes/TransformNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/TransformNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/Base/ExtendedNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphs/AnimationTemplateGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/FloatNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/StringNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/ValueNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Editor/TweenTemplateEditor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tween Animation Editor (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="settings&#9;null&#9;null&#10;format&#9;ACTION&#9;ReformatCode&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugin&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60fbd30d-edc8-49a1-a966-f57ebdd88778" name="Default" comment="" />
+      <created>1523211218416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523211218416</updated>
+      <workItem from="1523211220714" duration="7854000" />
+      <workItem from="1523385809837" duration="606000" />
+      <workItem from="1523388417541" duration="236000" />
+      <workItem from="1523388711107" duration="30000" />
+      <workItem from="1523388800267" duration="100000" />
+      <workItem from="1523388937305" duration="46000" />
+      <workItem from="1523389047885" duration="16000" />
+      <workItem from="1523389096373" duration="23026000" />
+      <workItem from="1523441510989" duration="1386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33300000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/NodeGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523411979000" expanded="false" signature="6:134" ph="..." />
+            <marker date="1523411979000" expanded="true" signature="178:675" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="399:673" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="501:628" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="582:624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TransformNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateStart.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/DebugNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Base/AnimationTemplateGraph.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TweenAnimations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/NodeGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523411979000" expanded="false" signature="6:134" ph="..." />
+            <marker date="1523411979000" expanded="true" signature="178:675" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="399:673" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="501:628" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="582:624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TransformNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateStart.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/DebugNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpriteStudioNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/TestNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/AnimationScheduler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TransformNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/DebugNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="103" column="26" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeGraphEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TweenAnimations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3795">
+          <caret line="48" column="65" lean-forward="false" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorGUILayout.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/NodeGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorAction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="295" column="36" lean-forward="false" selection-start-line="295" selection-start-column="36" selection-end-line="295" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Base/AnimationTemplateGraph.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Base/ExtendedNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BasicNodes/TransformNode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorPreferences.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/AnimationTemplateGraphEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateStart.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MasterNodes/TemplateEnd.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Editor/NodeEditorBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/xNode/Scripts/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/Base/ExtendedNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/TransformNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95265F7-4FDF-4905-BFB0-D5A4B652216C/f3/7222c586/Double.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95265F7-4FDF-4905-BFB0-D5A4B652216C/71/2b01a6f1/Single.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/FloatNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Types/NewBehaviourScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateEnd.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/MasterNodes/TemplateStart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1523403299000" expanded="true" signature="6:62" ph="..." />
+            <marker date="1523403299000" expanded="true" signature="133:464" ph="{...}" />
+            <marker date="1523403299000" expanded="true" signature="300:350" ph="{...}" />
+            <marker date="1523403299000" expanded="true" signature="389:458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/bf/0d378a83/EditorGUILayout.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="4031" column="61" lean-forward="false" selection-start-line="4031" selection-start-column="61" selection-end-line="4031" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/2e/f1fa5a19/PropertyHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/b2/ef63de75/EditorGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="7362" column="8" lean-forward="false" selection-start-line="7362" selection-start-column="8" selection-end-line="7486" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EB1D295-FFFE-4636-B481-9A907D0863F7/32/7da24fa6/SerializedProperty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="668" column="28" lean-forward="false" selection-start-line="668" selection-start-column="28" selection-end-line="668" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/ValueNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <marker date="1523409110000" expanded="false" signature="6:43" ph="..." />
+            <marker date="1523409110000" expanded="true" signature="65:405" ph="{...}" />
+            <marker date="1523409110000" expanded="true" signature="118:196" ph="{...}" />
+            <marker date="1523409110000" expanded="true" signature="252:403" ph="{...}" />
+            <marker date="1523409110000" expanded="true" signature="347:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graphs/AnimationTemplateGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <marker date="1523404095000" expanded="false" signature="6:132" ph="..." />
+            <marker date="1523404095000" expanded="true" signature="155:2293" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="306:2291" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="338:459" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="494:1532" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="520:1522" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="673:1270" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="752:834" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="890:976" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="1034:1114" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="1168:1252" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="1607:1916" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="1633:1906" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="1983:2282" ph="{...}" />
+            <marker date="1523404095000" expanded="true" signature="2009:2272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/TweenTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <marker date="1523411979000" expanded="false" signature="6:134" ph="..." />
+            <marker date="1523411979000" expanded="true" signature="178:675" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="399:673" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="501:628" ph="{...}" />
+            <marker date="1523411979000" expanded="true" signature="582:624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Nodes/BasicNodes/StringNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1523406417000" expanded="true" signature="20:145" ph="{...}" />
+            <marker date="1523406417000" expanded="true" signature="70:143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Components/Editor/TweenTemplateEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1523441617000" expanded="false" signature="6:190" ph="..." />
+            <marker date="1523441617000" expanded="true" signature="219:3483" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="321:3481" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="373:1904" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="694:888" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="1121:1894" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="1307:1880" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="1976:2205" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="2319:3475" ph="{...}" />
+            <marker date="1523441617000" expanded="true" signature="2363:3465" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

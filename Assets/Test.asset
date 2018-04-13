@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e4a7f1b50334a9eb04e45401317563, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114377488131755578}
+  - {fileID: 114840950674225470}
+  - {fileID: 114497755209267100}
+  - {fileID: 114467536360457708}
+--- !u!114 &114377488131755578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07862fc5ae6c440e19bb881f5c670edd, type: 3}
+  m_Name: Final Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 255.11974, y: -57.082397}
+  ports:
+    keys:
+    - Tween
+    values:
+    - _fieldName: Tween
+      _node: {fileID: 114377488131755578}
+      _typeQualifiedName: DG.Tweening.Sequence, DOTween, Version=1.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+--- !u!114 &114467536360457708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839d8e5661a6438abf9929edd7646cb2, type: 3}
+  m_Name: String Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14.5, y: -38.5}
+  ports:
+    keys:
+    - Value
+    values:
+    - _fieldName: Value
+      _node: {fileID: 114467536360457708}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+  Name: Name
+  Value: 
+--- !u!114 &114497755209267100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0afc29c2c7140618b3edac19daf83c, type: 3}
+  m_Name: Transform Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 64.5, y: -209.5}
+  ports:
+    keys:
+    - Value
+    values:
+    - _fieldName: Value
+      _node: {fileID: 114497755209267100}
+      _typeQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+  Name: Main
+  Value: {fileID: 0}
+--- !u!114 &114840950674225470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3e73fcafc648f69cd79f79a4bf067a, type: 3}
+  m_Name: Start Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -319.5041, y: -58.730927}
+  ports:
+    keys:
+    - Transform
+    values:
+    - _fieldName: Transform
+      _node: {fileID: 114840950674225470}
+      _typeQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+  Transform: {fileID: 0}
