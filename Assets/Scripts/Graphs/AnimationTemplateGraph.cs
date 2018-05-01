@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Linq;
-using System.Xml.Xsl.Runtime;
+using Base;
+using DG.Tweening;
 using MasterNodes;
-using UnityEditor;
 using UnityEngine;
 using XNode;
 
-namespace TweenEditor
+namespace Graphs
 {
     [Serializable, CreateAssetMenu(fileName = "NewTweenTemplate", menuName = "Tweens/Template")]
-    public class AnimationTemplateGraph : NodeGraph
+    public class AnimationTemplateGraph : ExtendedGraph
     {
         public enum Error
         {
@@ -20,68 +19,93 @@ namespace TweenEditor
             None
         }
 
-        public Error CurrentError
+        private Sequence _sequence;
+
+        public Sequence Sequence
         {
             get
             {
-                bool start = false, end = false, manyStart = false, manyEnd = false;
-                for (int i = 0; i < nodes.Count; i++)
-                {
-                    if (nodes[i] is TemplateStart && !start)
-                    {
-                        start = true;
-                    }
-                    else if (nodes[i] is TemplateStart)
-                    {
-                        manyStart = true;
-                    }
+                if (_sequence == null) _sequence = DOTween.Sequence();
+                return _sequence;
+            }
+        }
 
-                    if (nodes[i] is TemplateEnd && !end)
-                    {
-                        end = true;
-                    }
-                    else if (nodes[i] is TemplateEnd)
-                    {
-                        manyEnd = true;
-                    }
+        public Error CurrentError { private set; get; }
+        public StartNode StartNode { private set; get; }
+        public FinalNode FinalNode { private set; get; }
+        public RectTransform Target { private set; get; }
+        public MonoBehaviour Executor { private set; get; }
+
+        public event Action<RectTransform> TweenExecuted;
+
+        private Error GetError()
+        {
+            bool start = false, end = false, manyStart = false, manyEnd = false;
+            for (int i = 0; i < nodes.Count; i++)
+            {
+                if (nodes[i] is StartNode && !start)
+                {
+                    start = true;
+                }
+                else if (nodes[i] is StartNode)
+                {
+                    manyStart = true;
                 }
 
-                if (manyStart) return Error.ManyStart;
-                if (manyEnd) return Error.ManyEnd;
-                if (!start) return Error.NoStart;
-                if (!end) return Error.NoEnd;
-                return Error.None;
+                if (nodes[i] is FinalNode && !end)
+                {
+                    end = true;
+                }
+                else if (nodes[i] is FinalNode)
+                {
+                    manyEnd = true;
+                }
             }
+
+            if (manyStart) return Error.ManyStart;
+            if (manyEnd) return Error.ManyEnd;
+            if (!start) return Error.NoStart;
+            if (!end) return Error.NoEnd;
+            return Error.None;
         }
 
-        private TemplateStart _start;
-
-        public TemplateStart Start
+        public override void NodeRemoved(ExtendedNode node)
         {
-            get
+            var startNode = node as StartNode;
+            var endNode = node as FinalNode;
+            if (startNode != null)
             {
-                if (CurrentError != Error.None) return null;
-
-                if (Application.isPlaying && _start != null)
-                    return _start;
-
-                return _start = nodes.Find(x => x is TemplateStart) as TemplateStart;
+                StartNode = null;
             }
+            else if (endNode != null)
+            {
+                FinalNode = null;
+            }
+
+            CurrentError = GetError();
         }
 
-        private TemplateEnd _end;
-
-        public TemplateEnd End
+        public override void NodeInitialized(ExtendedNode node)
         {
-            get
+            var startNode = node as StartNode;
+            var endNode = node as FinalNode;
+            if (startNode != null)
             {
-                if (CurrentError != Error.None) return null;
-
-                if (Application.isPlaying && _end != null)
-                    return _end;
-
-                return _end = nodes.Find(x => x is TemplateEnd) as TemplateEnd;
+                StartNode = startNode;
             }
-        }   
+            else if (endNode != null)
+            {
+                FinalNode = endNode;
+            }
+
+            CurrentError = GetError();
+        }
+
+        public void ExecuteTween(RectTransform t, MonoBehaviour c)
+        {
+            Executor = c;
+            Target = t;
+            TweenExecuted?.Invoke(t);   
+        }
     }
 }

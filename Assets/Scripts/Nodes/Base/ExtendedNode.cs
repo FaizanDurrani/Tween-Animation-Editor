@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Graphs;
 using UnityEditor;
 using UnityEngine;
 using XNode;
@@ -33,9 +34,17 @@ namespace Base
 
         protected override void Init()
         {
-            base.Init();
             _nodesToUpdate = _nodesToUpdate ?? new Queue<NodePort>();
             EditorApplication.update += EditorUpdate;
+            
+            var nodeName = GetNodeName();
+            if (!string.IsNullOrEmpty(nodeName))
+            {
+               name = nodeName;
+            }
+            
+            GetGraph<ExtendedGraph>().NodeInitialized(this);
+            Debug.Log("Init called on extended node for " + GetNodeName());
         }
         
         #endregion
@@ -88,19 +97,18 @@ namespace Base
             _update = true;
         }
 
+        private void OnDestroy()
+        {
+            GetGraph<ExtendedGraph>().NodeRemoved(this);
+        }
+
+        protected T GetGraph<T>() where T : NodeGraph
+        {
+            return graph as T;
+        }
+
         protected virtual void OnValidateEnd(){}
         protected virtual void OnInputUpdate(NodePort port){}
-        protected abstract string NodeName { get; }
-
-        private new void OnEnable()
-        {
-            base.OnEnable();
-            
-            var nodeName = NodeName;
-            if (!string.IsNullOrEmpty(nodeName))
-            {
-                name = nodeName;
-            }
-        }
-    }
+        protected abstract string GetNodeName();
+    } 
 }

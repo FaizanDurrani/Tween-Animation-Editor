@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e4a7f1b50334a9eb04e45401317563, type: 3}
+  m_Name: NewTweenTemplate
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114393101259784780}
+  - {fileID: 114603192331102274}
+  - {fileID: 114537218561104372}
+--- !u!114 &114393101259784780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3e73fcafc648f69cd79f79a4bf067a, type: 3}
+  m_Name: Start Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 147.5, y: -115}
+  ports:
+    keys:
+    - Sequence
+    values:
+    - _fieldName: Sequence
+      _node: {fileID: 114393101259784780}
+      _typeQualifiedName: Types.TweenData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+--- !u!114 &114537218561104372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f527457135b54be4b89d9800b725df7f, type: 3}
+  m_Name: Fade Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 569.5813, y: -207.20216}
+  ports:
+    keys:
+    - Tween
+    - EaseCurve
+    - AnimationDuration
+    - PingPong
+    - Target
+    - Delay
+    values:
+    - _fieldName: Tween
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: Types.TweenData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+    - _fieldName: EaseCurve
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+    - _fieldName: AnimationDuration
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+    - _fieldName: PingPong
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+    - _fieldName: Target
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+    - _fieldName: Delay
+      _node: {fileID: 114537218561104372}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _dynamic: 0
+  Validate: 0
+  Target: {fileID: 0}
+  EaseCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AnimationDuration: 0
+  Delay: 0
+  PingPong: 0
+--- !u!114 &114603192331102274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07862fc5ae6c440e19bb881f5c670edd, type: 3}
+  m_Name: Final Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 572.5, y: -50}
+  ports:
+    keys:
+    - TweenData
+    values:
+    - _fieldName: TweenData
+      _node: {fileID: 114603192331102274}
+      _typeQualifiedName: Types.TweenData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _dynamic: 0
+  Validate: 0
+  OnComplete:
+    List: []

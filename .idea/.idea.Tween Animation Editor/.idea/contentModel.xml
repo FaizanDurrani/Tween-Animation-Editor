@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_Tween Animation Editor.1847007748.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\faiza\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Tween Animation Editor.417976415.00" t="ExcludeRecursive" />
+    <e p="D:\Unity Projects\Tween Animation Editor" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -12,12 +12,35 @@
             <e p="DOTween43.xml" t="Include" />
             <e p="DOTween46.xml" t="Include" />
             <e p="DOTween50.xml" t="Include" />
-            <e p="Examples" t="Include">
-              <e p="Basics.cs" t="Include" />
-              <e p="Sequences.cs" t="Include" />
-            </e>
             <e p="readme.txt" t="Include" />
           </e>
+        </e>
+        <e p="DOTween Examples" t="Include">
+          <e p="Basics.cs" t="Include" />
+          <e p="CustomPlugin Example" t="Include">
+            <e p="CustomPluginExampleBrain.cs" t="Include" />
+            <e p="CustomRange.cs" t="Include" />
+            <e p="CustomRangePlugin.cs" t="Include" />
+          </e>
+          <e p="Example Assets" t="Include">
+            <e p="DragTarget.cs" t="Include" />
+          </e>
+          <e p="Follow.cs" t="Include" />
+          <e p="Materials.cs" t="Include" />
+          <e p="Paths.cs" t="Include" />
+          <e p="Sequences.cs" t="Include" />
+          <e p="UGUI.cs" t="Include" />
+        </e>
+        <e p="EventDelegate" t="Include">
+          <e p="EDFlagAttribute.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="DrawerTools.cs" t="Include" />
+            <e p="EventDelegateDrawer.cs" t="Include" />
+            <e p="FlagDrawer.cs" t="Include" />
+            <e p="ReorderableDelegateDrawer.cs" t="Include" />
+          </e>
+          <e p="EventDelegate.cs" t="Include" />
+          <e p="ReorderableList.cs" t="Include" />
         </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
@@ -38,25 +61,35 @@
             <e p="Editor" t="Include">
               <e p="AnimationTemplateGraphEditor.cs" t="Include" />
             </e>
+            <e p="ExtendedGraph.cs" t="Include" />
           </e>
           <e p="Nodes" t="Include">
             <e p="Base" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ExtendedNodeEditor.cs" t="Include" />
+              </e>
               <e p="ExtendedNode.cs" t="Include" />
-            </e>
-            <e p="BasicNodes" t="Include">
-              <e p="FloatNode.cs" t="Include" />
-              <e p="StringNode.cs" t="Include" />
-              <e p="TransformNode.cs" t="Include" />
-              <e p="ValueNode.cs" t="Include" />
+              <e p="TweenNode.cs" t="Include" />
             </e>
             <e p="MasterNodes" t="Include">
-              <e p="TemplateEnd.cs" t="Include" />
-              <e p="TemplateStart.cs" t="Include" />
+              <e p="FinalNode.cs" t="Include" />
+              <e p="StartNode.cs" t="Include" />
+              <e p="ValueNode.cs" t="Include" />
+            </e>
+            <e p="TweenNodes" t="Include">
+              <e p="FadeNode.cs" t="Include" />
+            </e>
+            <e p="ValueNodes" t="Include">
+              <e p="FloatNode.cs" t="Include" />
+              <e p="RectTransformNode.cs" t="Include" />
+              <e p="StringNode.cs" t="Include" />
+              <e p="TransformNode.cs" t="Include" />
             </e>
           </e>
           <e p="TweenAnimations.cs" t="Include" />
           <e p="Types" t="Include">
             <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="TweenData.cs" t="Include" />
           </e>
         </e>
         <e p="xNode" t="Include">

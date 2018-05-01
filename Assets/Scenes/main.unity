@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 205316178}
   - component: {fileID: 205316177}
-  - component: {fileID: 205316176}
   - component: {fileID: 205316175}
   - component: {fileID: 205316174}
   - component: {fileID: 205316179}
@@ -141,13 +140,6 @@ AudioListener:
   m_GameObject: {fileID: 205316173}
   m_Enabled: 1
 --- !u!124 &205316175
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 205316173}
-  m_Enabled: 1
---- !u!92 &205316176
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -214,6 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be9d35eaf44b34346beb37deb2b3b09d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onStart: 0
+  _executeAtStart: 0
   _target: {fileID: 0}
-  _templateGraph: {fileID: 11400000, guid: 50790dfbeb16f4e5e95aaba6f3808b39, type: 2}
+  _templateGraph: {fileID: 0}
+  OnComplete:
+    List: []

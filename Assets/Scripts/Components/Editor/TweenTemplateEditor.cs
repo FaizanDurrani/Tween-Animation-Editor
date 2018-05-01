@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Reflection;
-using BasicNodes;
+using Graphs;
 using JetBrains.Annotations;
-using TweenEditor;
 using UnityEditor;
 using UnityEngine;
 using XNode;
@@ -15,6 +14,7 @@ namespace Components.Editor
     {
         public override void OnInspectorGUI()
         {
+            
             // Draw the default inspector
             base.OnInspectorGUI();
 
@@ -34,6 +34,7 @@ namespace Components.Editor
             {
                 var editor = CreateEditor(template.nodes[i]);
                 var value = editor.serializedObject.FindProperty("Value");
+
                 if (value != null)
                 {
                     if (value.propertyType == SerializedPropertyType.ObjectReference)
@@ -41,10 +42,15 @@ namespace Components.Editor
                             editor.serializedObject.FindProperty("Name").stringValue,
                             (Object) tweenTemplate.Values[i], GetType(value), true);
                     else
+                    {
+                        Debug.Log(value.propertyType);
                         DefaultProperty(value.propertyType,
                             editor.serializedObject.FindProperty("Name").stringValue, ref tweenTemplate.Values[i]);
+                    }
                 }
             }
+            
+            
         }
 
         public static System.Type GetType(SerializedProperty property)
@@ -55,8 +61,7 @@ namespace Components.Editor
         }
 
         public void DefaultProperty(SerializedPropertyType propertyType, string label, [NotNull] ref object obj)
-        {
-            switch (propertyType)
+        {  switch (propertyType)
             {
                 case SerializedPropertyType.Integer:
                     obj = EditorGUILayout.LongField(label, (long) obj);
@@ -78,6 +83,8 @@ namespace Components.Editor
                     break;
                 case SerializedPropertyType.Vector3:
                     obj = EditorGUILayout.Vector3Field(label, (Vector3) obj);
+                    break;
+                default:
                     break;
             }
         }

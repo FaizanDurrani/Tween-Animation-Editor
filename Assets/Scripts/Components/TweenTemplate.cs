@@ -1,30 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using BasicNodes;
-using MasterNodes;
-using TweenEditor;
+﻿using Graphs;
 using UnityEngine;
+using ValueNodes;
 
-public class TweenTemplate : MonoBehaviour
+namespace Components
 {
-	[SerializeField] private bool _onStart;
-	[SerializeField] private Transform _target;
-	[SerializeField] private AnimationTemplateGraph _templateGraph;
-
-	[HideInInspector] public object[] Values;
-	
-	private void Start()
+	public class TweenTemplate : MonoBehaviour
 	{
-		_templateGraph.Start.Transform = _target;
-		for (int i = 0; i < _templateGraph.nodes.Count; i++)
+		[SerializeField] private bool _executeAtStart;
+		[SerializeField] private RectTransform _target;
+		[SerializeField] private AnimationTemplateGraph _templateGraph;
+
+		public ReorderableEventList OnComplete;
+	
+		[HideInInspector] public object[] Values;
+	
+		private void Start()
 		{
-			var node = _templateGraph.nodes[i] as ValueNode;
-			
-			if (node != null)
-			{
-				node.NodeValue = Values[i];
-			}
+			if (_executeAtStart)
+				Execute();
 		}
-		_templateGraph.Start.ExecuteTemplate();
+
+		public void Execute()
+		{
+			for (int i = 0; i < _templateGraph.nodes.Count; i++)
+			{
+				var node = _templateGraph.nodes[i] as ValueNode;
+			
+				if (node != null)
+				{
+					node.NodeValue = Values[i];
+				}
+			}
+			_templateGraph.ExecuteTween(_target, this);
+		}
 	}
 }
